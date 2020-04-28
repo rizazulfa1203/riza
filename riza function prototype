@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void A (int angka7 , int angka8 )
+{
+	cout << "hasil perkalian = "<< (angka7 * angka8) << endl;
+	cout << "hasil pembagian = "<< (angka7 / angka8) << endl;
+	cout << "hasil penjumlahan = "<< (angka7 + angka8) << endl;
+	cout << "hasil pengurangan = "<< (angka7 - angka8) << endl;
+}
+
+int main ()
+{
+	
+	A (800,50);
+}
+
+ 
